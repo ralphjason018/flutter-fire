@@ -1,16 +1,19 @@
-# flutterfire
+# FlutterFire
 
-A new Flutter project.
+A basic Flutter app with Firebase (Android only).
+
+![app](readmefiles/app.png "app")<br>
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To create a fresh project. Clone this repository and complete the integration of Firebase into your project. Follow these guides below for Android to create your own config file.
 
-A few resources to get you started if this is your first Flutter project:
+1. Add an app to your existing project and select Android.
+![addfirebase1](readmefiles/addfirebase1.png "addfirebase1")<br>
+2. Fill in the necessary credentials and download the `google-services.json`
+![addfirebase2](readmefiles/addfirebase2.png "addfirebase2")<br>
+3. Replace `android/app/google-services.json` with your own config file.
+4. Replace all `com.example.flutterfire` variables in your project with your own package name.
+![packagenames](readmefiles/packagenames.png "packagenames")<br>
+5. Press F5 in VSCode to start debugging with live reload.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
